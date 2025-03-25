@@ -43,8 +43,9 @@ const SignIn = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     
+   
     if (validateForm()) {
-      navigate("/prescription"); // Navigate to prescription page if valid
+      navigate("/dashboard"); // Navigate to prescription page if valid
     }
   };
 
